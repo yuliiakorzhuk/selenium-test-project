@@ -1,0 +1,10 @@
+Env setup:
+Install
+ - maven
+ - openjdk 11.0.5
+
+Settings for IntelliJ Idea:
+1. Disable "Enable the Allow unsigned requests option" in Settings-> Debugger
+2. Enable "Enable Annotations processing"
+
+To run tests from cmd or terminal please CD to project folder and execute "mvn test"
